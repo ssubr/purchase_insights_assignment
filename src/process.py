@@ -4,6 +4,10 @@ ordersFile = sys.argv[1]
 productsFile = sys.argv[2]
 outputFile = sys.argv[3]
 
+#ordersFile = "../insight_testsuite/tests/test_1/input/order_products.csv"
+#productsFile = "../insight_testsuite/tests/test_1/input/products.csv"
+#outputFile = "../insight_testsuite/tests/test_1/output/report.csv"
+
 products = {}  # key= product id. value = dept id
 
 p_stats = {}  # key = dept id {orders: 0, firstOrders: 0}
@@ -42,7 +46,7 @@ with open(ordersFile) as f_obj:
 with open(outputFile, 'w') as f:
     f.write("department_id,number_of_orders,number_of_first_orders,percentage\n");
     for k,v in sorted(p_stats.items()):
-        f.write("{0},{1},{2},{3:.2f}\n".format(k, v['orders'], v['firstOrders'], (int(v['firstOrders'])/int(v['orders']))))
+        f.write("{0},{1},{2},{3:.2f}\n".format(k, v['orders'], v['firstOrders'], float(v['firstOrders'])/float(v['orders'])))
 
 f.close()
 
