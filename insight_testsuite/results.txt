@@ -1,2 +1,0 @@
-[Sun Apr  7 17:42:27 EDT 2019] 0 of 1 tests passed
-[Sun Apr  7 17:44:42 EDT 2019] 0 of 1 tests passed

@@ -8,7 +8,7 @@ products = {}  # key= product id. value = dept id
 
 p_stats = {}  # key = dept id {orders: 0, firstOrders: 0}
 
-with open(productsFile, encoding="utf8") as pFile:
+with open(productsFile) as pFile:
     next(pFile)  # skip first line
     for productLine in pFile:
         p = productLine.split(',')

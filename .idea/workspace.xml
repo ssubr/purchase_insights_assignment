@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1632ca8e-65eb-43ac-a657-32cc26b49865" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/insight_testsuite/run_tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/insight_testsuite/run_tests.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insight_testsuite/tests/test_1/output/report.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/.run_tests.sh.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/temp/input/order_products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/temp/input/products.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/temp/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/temp/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/temp/src/process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/tests/test_1/input/orders_small.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/tests/test_1/input/products_small.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/report.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="404">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -72,6 +81,37 @@
             <path>
               <item name="Purchase-Analytics" type="b2602c69:ProjectViewProjectNode" />
               <item name="Purchase-Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Purchase-Analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Purchase-Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Purchase-Analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Purchase-Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Purchase-Analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Purchase-Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_1" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Purchase-Analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Purchase-Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Purchase-Analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Purchase-Analytics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -81,6 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -132,10 +173,23 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/output/report.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/temp/output/report.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="404">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
         </state>
       </provider>
     </entry>
