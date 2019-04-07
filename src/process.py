@@ -42,7 +42,7 @@ with open(ordersFile) as f_obj:
 with open(outputFile, 'w') as f:
     f.write("department_id,number_of_orders,number_of_first_orders,percentage\n");
     for k,v in sorted(p_stats.items()):
-        f.write("{0},{1},{2},{3}\n".format(k, v['orders'], v['firstOrders'], "{:.2f}".format(v['firstOrders']/v['orders'])))
+        f.write("{0},{1},{2},{3:.2f}\n".format(k, v['orders'], v['firstOrders'], (int(v['firstOrders'])/int(v['orders']))))
 
 f.close()
 
