@@ -1,8 +1,6 @@
-import sys
-
-ordersFile = sys.argv[1]
-productsFile = sys.argv[2]
-outputFile = sys.argv[3]
+ordersFile = "../order_products__train.csv"
+productsFile = "../products.csv"
+outputFile = "../report.csv"
 
 products = {}  # key= product id. value = dept id
 
